@@ -46,4 +46,9 @@ const students = [
     { name: "Neelix", grades: [ 60, 54, 48, 50 ] }
   ]
 
+//Part 4
+function DarkTheme() {
+    const changeToDark = document.querySelector(".light-theme")
+    changeToDark.classList.replace("light-theme", "dark-theme")
+}
 
